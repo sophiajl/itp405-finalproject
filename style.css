@@ -1,0 +1,30 @@
+#menu * {
+    padding: 0;
+    margin: auto;
+}
+#menu li{
+    position: relative;
+    float: left;
+    list-style: none;
+}
+#menu li a{
+    width:300px;
+    height:40px;
+    display:block;
+    background-color:#403D58;
+    color: white;
+    text-decoration:none;
+    text-align: center;
+    line-height:40px;
+    font-size:24pt;
+}
+#menu li a:hover{
+    background-color:#8DAA91;
+}
+#menu ul ul{
+    position:absolute;
+    visibility:hidden;
+}
+#menu ul li:hover ul{
+    visibility: visible;
+}
